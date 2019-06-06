@@ -36,7 +36,7 @@ const useFetch = url => {
 
     setData(data);
     setLoading(false);
-    // Aqui tem que chamar a funcao que renderizar o conteúdo
+    // Aqui tem que chamar a função que renderiza o conteúdo
     console.log("fetchblog loading", loading);
   }
   useEffect(() => {
